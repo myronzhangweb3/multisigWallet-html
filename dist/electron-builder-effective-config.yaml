@@ -1,0 +1,14 @@
+directories:
+  output: dist
+  buildResources: build
+appId: pm.gnosis.wallet
+linux:
+  target:
+    - deb
+win:
+  target:
+    - NSIS
+    - portable
+mac:
+  icon: ./build/icon.icns
+electronVersion: 1.8.6
